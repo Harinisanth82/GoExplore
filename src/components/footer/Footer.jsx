@@ -1,6 +1,6 @@
 import './Footer.css'
 import React from 'react'
-import { destinations,info,services,contact } from '../../data'
+import { destinations,info,services } from '../../data'
 import { FaLocationDot } from 'react-icons/fa6'
 import { FaPhoneAlt } from 'react-icons/fa'
 import {IoMail} from 'react-icons/io5'
