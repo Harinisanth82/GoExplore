@@ -1,0 +1,23 @@
+.fullscreen-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3e2723;
+  background-color: #f8f9fa;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.fullscreen-image {
+  max-width: 150px;
+  height: auto;
+}
+img {
+  -webkit-user-drag: none;
+  pointer-events: auto;
+}
+

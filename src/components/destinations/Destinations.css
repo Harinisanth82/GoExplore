@@ -1,0 +1,47 @@
+.destinations-container {
+  margin-top: 30px;
+  padding: 0 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.destinations-header {
+  margin-bottom: 40px;
+}
+
+.destinations {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 0;
+}
+
+.destinations-item {
+  width: 32%;
+  position: relative;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 250px;
+}
+
+.destinations-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.destinations-img:hover {
+  transform: scale(1.2);
+}
+
+.destinations-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}

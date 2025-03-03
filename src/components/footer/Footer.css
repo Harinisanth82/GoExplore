@@ -1,0 +1,34 @@
+.footer {
+  width: 1024px;
+  font-size: 12px;
+  margin-top: 60px;
+  background-color: #f7f8fa;
+  width: 100%;
+  padding: 40px 240px;
+}
+
+.footer-lists {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list h2 {
+  margin-bottom: 20px;
+}
+
+.footer-list-item {
+  margin-bottom: 10px;
+  color: #003580;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.footer-list:last-of-type .footer-list-item {
+  margin-bottom: 30px;
+}
